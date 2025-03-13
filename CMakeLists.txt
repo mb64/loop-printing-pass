@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(Skeleton)
+project(LoopPrintingPass)
 
 # LLVM uses C++17.
 set(CMAKE_CXX_STANDARD 17)
@@ -19,4 +19,4 @@ include_directories(${LLVM_INCLUDE_DIRS})
 link_directories(${LLVM_LIBRARY_DIRS})
 
 # Our pass lives in this subdirectory.
-add_subdirectory(skeleton)
+add_subdirectory(pass)
